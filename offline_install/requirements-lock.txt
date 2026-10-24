@@ -1,0 +1,22 @@
+# Exact versions in wheels/ for Windows 64-bit + Python 3.14.
+# Installed by install_windows.bat with --no-index (no internet needed).
+absl-py==2.5.1
+colorama==0.4.6
+et-xmlfile==2.0.0
+immutabledict==4.3.1
+iniconfig==2.3.1
+numpy==2.5.4
+openpyxl==3.1.5
+ortools==9.15.6755
+packaging==26.3
+pandas==3.0.6
+pluggy==1.7.0
+protobuf==6.33.6
+pygments==2.21.0
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+pywin32==312
+scipy==1.18.1
+six==1.17.0
+typing-extensions==4.16.0
+tzdata==2026.5

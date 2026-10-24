@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+# Libraries this project needs. One file for Windows and macOS: lines
+# marked with sys_platform are skipped automatically on the other system.
+#
+#   Windows, with internet     py -m pip install --user -r requirements.txt
+#   Windows, without internet  offline_install\install_windows.bat
+#   macOS                      bash setup_macos.sh   (creates .venv)
+
+pandas>=2.2          # tables
+numpy>=1.26          # arrays, road graph
+openpyxl>=3.1        # reads workforce.xlsx; last-resort writer
+ortools>=9.10        # the routing solver
+scipy>=1.11          # shortest paths on the road graph
+
+# Excel itself saves the workbook, so its tables and formulas survive.
+pywin32>=306; sys_platform == "win32"     # Excel through COM (Windows)
+xlwings>=0.37; sys_platform == "darwin"   # Excel for Mac through AppleScript;
+                                          # needs Xcode Command Line Tools
+
+# Rebuilding the road graph (every 6-12 months, needs internet) also needs
+# pyrosm:  pip install pyrosm   -- see README, "Building or refreshing the map".

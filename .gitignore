@@ -1,0 +1,33 @@
+# Development notes, old code copies and reference files (kept in the shared
+# folder, never published)
+_dev/
+
+# Customer data: the planning workbook and every copy of it
+workforce.xlsx
+*.xlsx
+*.xlsm
+~$*
+backups/
+
+# Road graph (large) and everything generated from customer locations:
+# the travel-matrix cache and the route map
+mapdata/
+
+# Offline installer files (large binaries; rebuilt from requirements-lock.txt)
+offline_install/wheels/
+offline_install/*.exe
+
+# Test suite (kept locally, not published)
+tests/
+
+# Python and tools
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
