@@ -302,7 +302,7 @@ class App:
         # Progress bar state: (now, may creep up to, rough seconds, started at)
         self.stage = (0, 0, 0, time.monotonic())
 
-        root.title("Optimal Technician Routing and Dispatch")
+        root.title("Smart Meter Technician Dispatch & Routing Optimizer")
         root.geometry("1200x920")
         root.minsize(1000, 700)
         root.protocol("WM_DELETE_WINDOW", self.close)

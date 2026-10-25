@@ -7,6 +7,12 @@ Dijkstra's algorithm on the real Bangkok road network, and Google OR-Tools
 decides which meters each team visits, on which day and in what order.
 Everything runs offline on an ordinary office PC.
 
+![Planning screen](docs/images/planner-screen.png)
+
+![Routes for one day](docs/images/map-one-day.png)
+
+![All five days, with kilometres per team](docs/images/map-all-days.png)
+
 This project is already in use at my workplace, so some of the content, code
 and buttons are in Thai, as they are used there. I've translated them as
 closely to their meaning as I can.
